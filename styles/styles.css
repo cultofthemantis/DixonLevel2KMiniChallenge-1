@@ -1,0 +1,43 @@
+.joke-btn{
+    width: 150px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.joke-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 3rem;
+    height: 800px;
+    border-color: black;
+    font-size: 100px;
+}
+
+.dad-joke{
+    border-width: 50px;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.jump{
+    animation-timing-function: jump 0.5s;
+}
+
+@keyframes jump {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
